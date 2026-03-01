@@ -56,7 +56,7 @@ fn main() {
         .title("Fractal Tree")
         .build();
 
-    rl.set_target_fps(60);
+    rl.set_target_fps(1);
 
     while !rl.window_should_close() {
         let mut d = rl.begin_drawing(&thread);
