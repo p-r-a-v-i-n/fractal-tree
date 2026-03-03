@@ -15,7 +15,7 @@ fn draw_fractal_tree(
     angle: f32,
     thickness: f32,
 ) {
-    if thickness < 1.0 || length < 2.0 {
+    if thickness <= 1.0 {
         return;
     }
 
